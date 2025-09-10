@@ -9,11 +9,11 @@ function calculate() {
     
     // This will replace the result of any mathematical operation with "I love you"
     if (expression.match(/[0-9]+[+\-*/][0-9]+/)) {
-        display.value = 'Sooo come join with me';
+        display.value = 'I love you';
     if (expression.match(/[1]+[+][1]+/))
-        display.value = 'Ciee Si maniss kena prankk';
+        display.value = 'Uga Hitam Berdaki';
      if (expression.match(/[1]+[+][2]+/))
-        display.value = 'Btw Hai junior ku yg cantikkk';
+        display.value = 'Yahaha ditokka';
     } else {
         try {
             display.value = eval(expression);
@@ -27,4 +27,5 @@ function clearDisplay() {
     const display = document.getElementById('display');
     display.value = '';
 }
+
 
